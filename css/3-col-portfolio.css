@@ -65,6 +65,9 @@ table {
   display: inline-block;
   float: center;
 }
+alert {
+  font-size: 30px;
+}
 td {
   /*padding: 20px;*/
 }
