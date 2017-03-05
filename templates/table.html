@@ -65,7 +65,7 @@ $(function(){
                .text(function(d) {
                    return d;
                });
-               $('tr td:nth-child(8)').css('color','green').wrap(function(){
+               $('tr td:last-child').css('color','green').wrap(function(){
                  return "<button class='" + $( this ).text() + "'></button>";
                          });
                 // $('tr:first-child td').unwrap();
