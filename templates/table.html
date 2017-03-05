@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>3 Col Portfolio - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/3-col-portfolio.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<nav id='nav-placeholder'></nav>
+
+<div id ='table-container' class='container'>
+</div>
+
+<!-- <iframe src="https://docs.google.com/spreadsheets/d/1mIbTAMZNoOqIrGE4bGqD8uXZOVziZoJdRMMPM4Fxpto/pubhtml?gid=1481760327&amp;single=true&amp;widget=true&amp;headers=false">IFrame not working.</iframe> -->
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script>
+$('td').css('color','green');
+</script>
+<script>
+$(function(){
+  $("#nav-placeholder").load("navigation.html");
+});
+</script>
+<!-- <script src ='../js/d3tablemaker.js'></script> -->
+<script src="https://d3js.org/d3.v3.min.js"></script>
+   <!-- <script src="d3.min.js?v=3.2.8"></script> -->
+    <script type="text/javascript" charset="utf-8">
+
+       d3.text("BRD.csv", function(data) {
+           var parsedCSV = d3.csv.parseRows(data);
+           var container = d3.select("#table-container")
+               .append("table")
+               .selectAll("tr")
+               .data(parsedCSV).enter()
+               .append("tr")
+               .selectAll("td")
+               .data(function(d) {
+                   return d;
+               }).enter()
+               .append("td")
+               .text(function(d) {
+                   return d;
+               });
+               $('tr td:nth-child(8)').css('color','green').wrap(function(){
+                 return "<button class='" + $( this ).text() + "'></button>";
+                         });
+                // $('tr:first-child td').unwrap();
+               $('button').on('click',function(){
+                 $(this).text('Save').css('color','red');
+                 $(this).parent().css('background','rgba(155,155,155,0.5)');
+                 $(this).parent().find('td:eq(3)').wrap(function(){
+                   return "<input type='text' placeholder=" + $( this ).text() + ">";
+                 })
+                 $(this).on('click',function(){
+                  $(this).text('Edit').css('color','green');
+                  $(this).parent().css('background','rgba(0,255,0,0.5)');
+                  var inputWords = $(this).parent().find('input').value();
+                  inputWords = inputWords.toString();
+                  $(this).parent().find('input').children().unwrap().html(inputWords);
+                  $('input').css('border','none');
+                 })
+               })
+              // $('table tr:nth-child(8) td').css('background','rgba(155,155,155,0.5)');
+       });
+
+</script>
+
+<script>
+$('tr td:nth-child(6)').css('color','green');
+</script>
+
+
+
+</body>
