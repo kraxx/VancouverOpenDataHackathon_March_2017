@@ -76,12 +76,12 @@ $(function(){
                    return "<input type='text' placeholder=" + $( this ).text() + ">";
                  })
                  $(this).on('click',function(){
+                 alert('Information updated. Thanks for contributing to OpenSesame!');
                   $(this).text('Edit').css('color','green');
                   $(this).parent().css('background','rgba(0,255,0,0.5)');
                   var inputWords = $(this).parent().find('input').value();
                   inputWords = inputWords.toString();
                   $(this).parent().find('input').children().unwrap().html(inputWords);
-                  $('input').css('border','none');
                  })
                })
               // $('table tr:nth-child(8) td').css('background','rgba(155,155,155,0.5)');
