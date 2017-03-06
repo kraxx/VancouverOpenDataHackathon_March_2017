@@ -10,14 +10,18 @@ Justin Chow
 David (Wai Ho) Choy
 Jennifer Yee
 
-**Vancouver Open Data Day Challenge**
+**Vancouver Open Data Day Challenge**  
 
-Crowdsourcing data from members of the public to improve Municipal Open Data sets  
+Crowdsourcing data from members of the public to improve Municipal Open Data sets.
+
 
 **Prototype**  
-  
 [OpenSesame landing page and edit demo (Only bike rack is working)](https://kraxx.github.io/opendata2017/)  
 [OpenSesamePresentation](https://kraxx.github.io/opendata2017/opensesame.pdf)  
+
+**Social media**  
+[Vancouver Open Data Day Hackathon official   page](https://www.opendatabc.ca/pages/2017-vodday-vancouver-open-data-day)  
+[OpenSesame](https://twitter.com/OpenDataBC/status/838313325549273089)  
 
 **Prototype Problem Statement**
 
