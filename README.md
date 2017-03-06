@@ -3,7 +3,6 @@
 
 ###VODday-Hackathon-Submissions: OpenSesame
 <small> edited March 5th, 2017 </small>
-**Team Name**  
   
 ##OpenSesame
 
