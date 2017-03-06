@@ -1,27 +1,72 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [3 Col Portfolio](http://startbootstrap.com/template-overviews/3-col-portfolio/)
+<style>
+nav {
+    float: left;
+    max-width:40%;
+    margin: 0;
+    padding: 1em;
+}
 
-[3 Col Portfolio](http://startbootstrap.com/template-overviews/3-col-portfolio/) is a three column portfolio template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
 
-## Getting Started
+footer {
+    padding: 1em;
+    clear: left;
+}
+</style>
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/3-col-portfolio/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio.git`
-* Fork the repo
+###VODday-Hackathon-Submissions
+<small> edited March 5th, 2017 </small>
 
-## Bugs and Issues
+<nav>
+**Team Name**  
+  
+<big>[OpenSesame](https://kraxx.github.io/opendata2017/)</big>
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/3-col-portfolio/).
+Justin Chow
+David (Wai Ho) Choy
+Jennifer Yee
 
-## Creator
+**Vancouver Open Data Day Challenge**
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+Crowdsourcing data from members of the public to improve Municipal Open Data sets  
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+**Prototype**  
+  
+[OpenSesame landing page and edit demo (Only bike rack is working)](https://kraxx.github.io/opendata2017/)  
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+[OpenSesamePresentation](https://kraxx.github.io/opendata2017/opensesame.pdf)  
+</nav>
 
-## Copyright and License
+<article>
+<image src="static/images/slide2.png" style="width:80%"></image>
+</article>
 
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/blob/gh-pages/LICENSE) license.
+<footer>
+**Prototype Problem Statement**
+
+Open Data portals are becoming common across North America in the past few years and our province of BC is also part of this movement. Hundreds of city planning, environmental, funding, political and socioeconomic information have been released by cities such as Vancouver, Surrey, Richmond etc. However, these datasets depend on the limited manpower of public officials to maintain and correct records.
+
+To increase the accuracy, recency and breadth of collected information, members of the public are a relatively untapped source of manpower. Everyone in this city cares about something; be it understanding homelessness, tackling the opiod overdose crisis or finding a way to live in our current high-occupancy city. To governments, we say  
+
+"Let your citizens help gather that information.".
+
+In America, there is a ratio of about ~250 public employees to 10,000 Americans [source](http://www.governing.com/gov-data/public-workforce-salaries/states-most-government-workers-public-employees-by-job-type.html) . That scale alone shows how much more information members of the public can gather at a faster pace, in more detail and with a robustness that comes with sheer numbers.
+
+**Protoype Summary**
+
+OpenSesame is a platform that allows anyone to download a Municipal open dataset, edit it and push it back online as a publicly-updated copy (PUC). Once a user creates a "data project", this edited data can be accessed as a link from a government website or directly from our landing page. As the dataset accumulates edits from members of the public, it becomes more refined and serves as an alternative version-controlled source of information.
+
+The concept of OpenSesame already exists in the form of Wikipedia and OpenStreetMap and like any other idea, execution and partnership is the most important key to this platform's success. We want to make OpenSesame very easy to integrate into existing municipal open data portals. At some point, we also encourage municipalities to review our publicly-sourced data, validate it and publish it as their own official copy.
+
+**Open Data Sets**  
+
+We look forward to working with open data portals from all cities and municipalities in BC in our pilot stage. There is no limit to the type or content of the dataset that we will work with but simple text tables are generally the easiest to work with.  
+  
+Tweet @OpenDataBC with your updates
+
+</footer>
