@@ -1,31 +1,11 @@
-<style>
-nav {
-    float: left;
-    max-width:40%;
-    margin: 0;
-    padding: 1em;
-}
 
-article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
-}
+<image src="static/images/slide2.png" style="width:80%"></image>
 
-footer {
-    padding: 1em;
-    clear: left;
-}
-</style>
-
-###VODday-Hackathon-Submissions
+###VODday-Hackathon-Submissions: OpenSesame
 <small> edited March 5th, 2017 </small>
-
-<nav>
 **Team Name**  
   
-<big>[OpenSesame](https://kraxx.github.io/opendata2017/)</big>
+##OpenSesame
 
 Justin Chow
 David (Wai Ho) Choy
@@ -38,15 +18,8 @@ Crowdsourcing data from members of the public to improve Municipal Open Data set
 **Prototype**  
   
 [OpenSesame landing page and edit demo (Only bike rack is working)](https://kraxx.github.io/opendata2017/)  
-
 [OpenSesamePresentation](https://kraxx.github.io/opendata2017/opensesame.pdf)  
-</nav>
 
-<article>
-<image src="static/images/slide2.png" style="width:80%"></image>
-</article>
-
-<footer>
 **Prototype Problem Statement**
 
 Open Data portals are becoming common across North America in the past few years and our province of BC is also part of this movement. Hundreds of city planning, environmental, funding, political and socioeconomic information have been released by cities such as Vancouver, Surrey, Richmond etc. However, these datasets depend on the limited manpower of public officials to maintain and correct records.
