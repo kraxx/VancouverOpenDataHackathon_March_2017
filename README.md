@@ -31,7 +31,7 @@ In America, there is a ratio of about ~250 public employees to 10,000 Americans 
 
 **Protoype Summary**
 
-OpenSesame is a platform that allows anyone to download a Municipal open dataset, edit it and push it back online as a publicly-updated copy (PUC). Once a user creates a "data project", this edited data can be accessed as a link from a government website or directly from our landing page. As the dataset accumulates edits from members of the public, it becomes more refined and serves as an alternative version-controlled source of information.
+OpenSesame is a platform that allows anyone to access a Municipal open dataset, edit it and push it back online as a publicly-updated copy (PUC). Once a user creates a "data project", this edited data can be accessed as a link from a government website or directly from our landing page. As the dataset accumulates edits from members of the public, it becomes more refined and serves as an alternative version-controlled source of information. For ease of use, edit forms will look like googlesheets or simple web forms (TBD).
 
 The concept of OpenSesame already exists in the form of Wikipedia and OpenStreetMap and like any other idea, execution and partnership is the most important key to this platform's success. We want to make OpenSesame very easy to integrate into existing municipal open data portals. At some point, we also encourage municipalities to review our publicly-sourced data, validate it and publish it as their own official copy.
 
