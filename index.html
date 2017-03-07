@@ -9,14 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>3 Col Portfolio - Start Bootstrap Template</title>
+    <title>Open Sesame</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/3-col-portfolio.css" rel="stylesheet">
-    <link rel="import" href="/templates/navigation.html">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -39,12 +38,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">Community Databases
-                    <a href='#' id='new-database'><small>+ Add new database</small></a>
-                    <br>
-                     <form id='search-bar' action="#">
-                       <input type="text" name="search" value="Search...">
-                       <!-- <input type="submit" value="Submit"> -->
-                      </form>
+                    <a href='templates/new-database-entry.html' id='new-database'><small>+ Add new database</small></a>
                 </h1>
 
             </div>
@@ -200,12 +194,14 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <!-- Custom script -->
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("templates/navigation.html");
+    });
+    </script>
 
-<!-- Navigation bar -->
-<script>
-$(function(){
-  $("#nav-placeholder").load("templates/navigation.html");
-});</script>
+
 
 </body>
 
