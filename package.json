@@ -1,0 +1,29 @@
+{
+  "name": "opendata2017",
+  "version": "1.0.0",
+  "description": "OpenSesame (tentative name): a platform for the public to contribute information to open data sets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kraxx/opendata2017.git"
+  },
+  "author": "Justin Chow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kraxx/opendata2017/issues"
+  },
+  "homepage": "https://github.com/kraxx/opendata2017#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.25"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
