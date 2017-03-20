@@ -1,0 +1,25 @@
+How to build opensesame:
+
+homepage:
+
+-current databases
+=> links to a template page that shows a table of the data
+	- each open database is stored in our own database and assigned a number (num)
+	- clicking on a database links to a /table/${num} endpoint
+	- /table checks to see if we currently have a copy of the main database
+		- if not, /table pulls from the main source, then stores a copy in our own database
+		- from the time of being stored, our copy will last 24 hours before deleting itself
+	- changes made by users are stored in a permanent database, named ${num}
+	- /table has a "id='table-container' that loads the current open database and then superimposes information from our separate opendatabases according to ${num}
+
+-create new database
+	- add information about database
+	- once created, is assigned a number (num) which is stored as a new 'collection' in our mongodb
+
+
+the server:
+
+-database for each dataset
+=> create a single mongodb
+	- each dataset is a separate 'collection'
+=> in our mongodb, make a single collection that contains temporary (24h) copies of source databases
