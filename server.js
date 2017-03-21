@@ -1,6 +1,7 @@
 const express = require('express'),
       routes = require('./app/routes/index.js'),
       mongo = require('mongodb').MongoClient,
+      Client = require('ftp'),
       app = express(),
       MONGO_URI = 'mongodb://cooldude:1234@ds137100.mlab.com:37100/opensesame', //it'll look different
       port = process.env.PORT || 3000;
@@ -17,7 +18,7 @@ mongo.connect(MONGO_URI, (err, db) => {
     if (err) {
         throw new Error('Database failed to connect!');
     } else {
-        console.log('MongoDB successfully connected on port whatever.');
+        console.log('MongoDB successfully connected on port 37100.');
     }
 
     app.use('/public', express.static(process.cwd() + '/public'));

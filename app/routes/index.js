@@ -12,4 +12,8 @@ module.exports = (app) => {
         .get((req, res) => {
             res.render('pages/index');
         });
+    app.route('/datapage')
+        .get((req, res) => {
+            res.render('pages/datapage');
+        });
       }
