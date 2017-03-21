@@ -2,11 +2,11 @@
   "name": "opendata2017",
   "version": "1.0.0",
   "description": "OpenSesame (tentative name): a platform for the public to contribute information to open data sets.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index",
-    "start:dev": "nodemon index"
+    "start": "node server",
+    "start:dev": "nodemon server"
   },
   "repository": {
     "type": "git",
