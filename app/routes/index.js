@@ -10,6 +10,6 @@
 module.exports = (app) => {
     app.route('/')
         .get((req, res) => {
-            res.render('./pages/index');
+            res.render('pages/index');
         });
       }
