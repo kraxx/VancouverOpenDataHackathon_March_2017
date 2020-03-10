@@ -7,7 +7,9 @@
 ##OpenSesame
 
 Justin Chow
+
 David (Wai Ho) Choy
+
 Jennifer Yee
 
 **Vancouver Open Data Day Challenge**  
